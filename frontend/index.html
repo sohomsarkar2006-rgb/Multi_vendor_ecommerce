@@ -1,49 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Multi Vendor Ecommerce</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>MultiVendor | Online Marketplace</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
   <header class="navbar">
-    <h1>MultiVendor</h1>
+    <div class="logo">MultiVendor</div>
+    <input type="text" placeholder="Search for products, brands and more…" />
     <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="vendors.html">Vendors</a>
-      <a href="cart.html">Cart</a>
-      <a href="login.html">Login</a>
+      <a href="#">Login</a>
+      <a href="#">Cart</a>
     </nav>
   </header>
-
   <section class="hero">
-    <h2>One Marketplace, Many Sellers</h2>
-    <p>Buy from multiple vendors at one place.</p>
+    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="banner">
+    <div class="hero-text">
+      <h1>Big Deals. Multiple Sellers.</h1>
+      <p>Shop across categories from trusted vendors</p>
+    </div>
   </section>
-
-  <section class="section">
+  <section class="categories">
+    <div class="category">Electronics</div>
+    <div class="category">Fashion</div>
+    <div class="category">Home</div>
+    <div class="category">Beauty</div>
+    <div class="category">Sports</div>
+  </section>
+  <section class="products">
     <h2>Featured Products</h2>
-    <div class="grid">
-      <div class="card">Product 1</div>
-      <div class="card">Product 2</div>
-      <div class="card">Product 3</div>
+
+    <div class="product-grid" id="productGrid">
     </div>
   </section>
-
-  <section class="section">
-    <h2>Top Vendors</h2>
-    <div class="grid">
-      <div class="card">Vendor A</div>
-      <div class="card">Vendor B</div>
-      <div class="card">Vendor C</div>
-    </div>
-  </section>
-
   <footer class="footer">
-    <p>© 2026 Multi Vendor Ecommerce</p>
+    <p>© 2026 MultiVendor Ecommerce</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
+
